@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="pink">#F00C5F</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="green">#37B12B</color>
+    <color name="green_dark">#13690B</color>
+    <color name="geofence_green">#9A99D588</color>
+    <color name="geofence_pink">#6BD81B60</color>
+
+    <color name="merron">#901814</color>
+
+    <color name="wall_yellow">#f9be63</color>
+
+    <color name="wall_pink">#e76f6f</color>
+
+    <color name="wall_green">#3cad2b</color>
+
+
+
+
+    <!--<color name="whiteTransparent">#A3F5FFFA</color>-->
+    <!-- <color name="whiteTransparent">#E2F5FFFA</color>-->
+    <color name="whiteTransparent">#CEDCD9D9</color>
+
+    <color name="blackTransparent">#ED0A0A0A</color>
+
+    <color name="grey">#A0A29F</color>
+    <color name="light_black">#E7E9E7</color>
+    <color name="light_green">#2A4223</color>
+    <color name="alert_background">#111214</color>
+    <color name="transparent">#80000000</color>
+    <color name="blur_color">#5A5B5F</color>
+
+    <color name="toggle_red">#ff2253</color>
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#16c266</color>
+    <color name="bg_screen2">#90c2bb</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#39d1ba</color>
+    <color name="dot_dark_screen2">#14a895</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#8de7f9</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+    </array>
+
+    <color name="kprogresshud_default_color">#b1000000</color>
+    <color name="kprogresshud_grey_color">#449E9E9E</color>
+</resources>

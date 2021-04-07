@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/maps_colayout"
+
+    >
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity" >
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.google.android.gms.maps.SupportMapFragment">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="top" >
+
+            <ImageView
+                android:id="@+id/balck_menu"
+                android:layout_width="35dp"
+                android:layout_height="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ic_menu_black"
+                android:padding="15dp" />
+
+            <ImageView
+                android:id="@+id/center_img"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/business_logo_one"/>
+
+            />
+
+            <ImageView
+                android:id="@+id/button3"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/ic_current_loc"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/lenar_fb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+          <!--  <include layout="@layout/fab_layout"/>-->
+
+
+        </LinearLayout>
+
+
+
+    </fragment>
+
+</FrameLayout>
+
+
+        <include layout="@layout/buiseness_icons" />
+        
+
+</android.support.design.widget.CoordinatorLayout>

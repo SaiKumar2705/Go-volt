@@ -1,0 +1,6 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+   <!-- values-sw480dp          5.4”  480x854 mdpi
+    values-sw480dp          5.1”  480x800 mdpi-->
+</resources>

@@ -1,0 +1,254 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tabsLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_marginTop="48dp"
+            android:src="@drawable/ic_cover"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_conversion_absoluteHeight="120dp"
+            tools:layout_conversion_absoluteWidth="128dp" />
+
+
+        <TextView
+            android:id="@+id/error_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X     il codice inserito non e' connetto. Riprova ! "
+            android:textColor="@color/toggle_red"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_conversion_absoluteHeight="19dp"
+            tools:layout_conversion_absoluteWidth="291dp" />
+
+        <com.journeyapps.barcodescanner.DecoratedBarcodeView
+            android:id="@+id/qr_scanner_view"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_marginTop="248dp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_conversion_absoluteHeight="1dp"
+            tools:layout_conversion_absoluteWidth="1dp" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+    <EditText
+        android:id="@+id/et_numbers"
+        android:layout_width="1dp"
+        android:layout_height="wrap_content"
+        android:maxLength="5"
+        />
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="328dp"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginRight="40dp"
+        android:orientation="horizontal">
+
+        <!--   <EditText
+               android:id="@+id/text1"
+               android:layout_width="0dp"
+               android:layout_height="40.0dip"
+               android:layout_marginTop="5.0dip"
+               android:layout_marginBottom="5.0dip"
+               android:layout_weight="0.20"
+               android:gravity="center"
+               android:textColor="#000000"
+               android:textStyle="bold" />-->
+
+        <EditText
+            android:id="@+id/text1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0dip"
+            android:layout_marginBottom="5.0dip"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            android:maxLength="1"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:theme="@style/EditTextTheme"
+            android:focusable="false"/>
+
+        <EditText
+            android:id="@+id/text2"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0dip"
+            android:layout_marginBottom="5.0dip"
+            android:layout_weight="0.20"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="#000000"
+            android:focusable="false"
+            android:textStyle="bold"
+            android:theme="@style/EditTextTheme" />
+
+        <EditText
+            android:id="@+id/text3"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0dip"
+            android:layout_marginBottom="5.0dip"
+            android:layout_weight="0.20"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="#000000"
+            android:focusable="false"
+            android:textStyle="bold"
+            android:theme="@style/EditTextTheme" />
+
+        <EditText
+            android:id="@+id/text4"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0dip"
+            android:layout_marginBottom="5.0dip"
+            android:layout_weight="0.20"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="#000000"
+            android:focusable="false"
+            android:textStyle="bold"
+            android:theme="@style/EditTextTheme" />
+
+        <EditText
+            android:id="@+id/text5"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5.0dip"
+            android:layout_marginBottom="5.0dip"
+            android:layout_weight="0.20"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textColor="#000000"
+            android:focusable="false"
+            android:textStyle="bold"
+            android:theme="@style/EditTextTheme" />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+        -
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+
+
+            -
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/ic_qr"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="30dp"
+                    android:src="@drawable/ic_qr" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/image2"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/ic_torch" />
+
+
+            </LinearLayout>
+
+
+            <!-- <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="25dp"
+                 android:orientation="vertical">
+
+                 <de.hdodenhof.circleimageview.CircleImageView
+                     android:id="@+id/image2"
+                     android:layout_width="70dp"
+                     android:layout_height="70dp"
+                     android:src="@drawable/ic_camera_icon_one" />
+
+                 <TextView
+                     android:layout_marginTop="2dp"
+                     android:layout_marginLeft="3dp"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Foto Retro"
+                     android:textColor="@color/green" />
+
+             </LinearLayout>-->
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

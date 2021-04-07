@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/border_et_rec"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/circlecolor"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_circle_pink" />
+
+                <TextView
+                    android:id="@+id/category"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="9dp"
+
+                    android:singleLine="true"
+                    android:text="Pacchetto Mates"
+                    android:textColor="@color/green"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:singleLine="true"
+                    android:text="Creare "
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_small"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/distance_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="37dp"
+                    android:singleLine="true"
+                    android:text="CREDITO:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_medium_sec"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:id="@+id/rewardamt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+
+                    android:layout_toRightOf="@+id/distance_tv"
+                    android:singleLine="true"
+                    android:text=" € 100"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_medium_sec"
+                    android:textStyle="bold" />
+
+                <TextView
+
+                    android:id="@+id/createtime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dp"
+                    android:layout_toRightOf="@+id/rewardamt"
+                    android:singleLine="true"
+                    android:text="Costo del pacchetto:"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_medium_sec"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/creditamt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+
+                    android:layout_toEndOf="@+id/createtime"
+                    android:layout_toRightOf="@+id/createtime"
+                    android:singleLine="true"
+                    android:text=" € 100"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_medium_sec"
+                    android:textStyle="bold" />
+
+
+                <!-- <TextView
+
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginTop="10dp"
+                     android:layout_toRightOf="@+id/hiphen1"
+                     android:singleLine="true"
+                     android:text="21"
+                     android:textColor="@color/black"
+
+                     android:textSize="@dimen/text_size_small"
+                     android:textStyle="bold" />
+&lt;!&ndash;-->
+                <!--  <TextView
+
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="10dp"
+                      android:layout_toRightOf="@+id/time_end"
+                      android:singleLine="true"
+                      android:text="PM"
+                      android:textColor="@color/black"
+
+                      android:textSize="@dimen/text_size_small"
+                      android:textStyle="bold" />&ndash;&gt;-->
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="37dp">
+
+                    <TextView
+                        android:id="@+id/distance_tv1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:singleLine="true"
+                        android:text="Acquistato it :"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_small"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/till_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="5dp"
+
+                        android:layout_toRightOf="@+id/distance_tv1"
+                        android:singleLine="true"
+                        android:text="31/07/2019"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_small"
+                        android:textStyle="bold" />
+
+                    <!-- <TextView
+
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginTop="10dp"
+                         android:layout_toRightOf="@+id/hiphen1"
+                         android:singleLine="true"
+                         android:text="21"
+                         android:textColor="@color/black"
+
+                         android:textSize="@dimen/text_size_small"
+                         android:textStyle="bold" />
+&lt;!&ndash;-->
+                    <!--  <TextView
+
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_marginTop="10dp"
+                          android:layout_toRightOf="@+id/time_end"
+                          android:singleLine="true"
+                          android:text="PM"
+                          android:textColor="@color/black"
+
+                          android:textSize="@dimen/text_size_small"
+                          android:textStyle="bold" />&ndash;&gt;-->
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:text="Convalidare :"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_small"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="5dp"
+                    android:singleLine="true"
+                    android:text="4/07/2019 To 5/07/2019 "
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_small"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:orientation="vertical"></LinearLayout>
+
+
+    <!-- <android.support.v7.widget.CardView
+
+         android:id="@+id/cardview"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="10dp"
+         android:layout_marginTop="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_marginBottom="10dp"
+         app:cardBackgroundColor="@color/white"
+         app:cardCornerRadius="10dp"
+         app:cardElevation="@dimen/cardview_default_elevation">
+
+
+     </android.support.v7.widget.CardView>-->
+
+
+</LinearLayout>

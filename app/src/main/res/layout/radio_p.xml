@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:gravity="center">
+
+        <android.support.v7.widget.CardView
+
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
+            android:layout_height="340dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="30dp"
+            card_view:cardBackgroundColor="@color/alert_background"
+            card_view:cardCornerRadius="48dp"
+            card_view:cardElevation="2dp"
+            card_view:cardPreventCornerOverlap="false"
+            card_view:cardUseCompatPadding="false">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/crass_img"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="right"
+                    android:padding="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/ic_closeicon" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+
+                        android:id="@+id/textone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="@string/pagament"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:textColor="@color/green"
+                        android:textSize="@dimen/text_size_header"
+
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+
+                <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+                    <RadioButton
+                        style="@style/RadioButton"
+                        android:id="@+id/radio_btn_one"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:text="Ho visto I veicoli in città"
+                        android:padding="10dp"
+
+
+                        />
+                    <RadioButton
+                        style="@style/RadioButton"
+                        android:id="@+id/radio_btn_two"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Me I'ha consigliato un amico"
+                        android:textColor="@color/white"
+                        android:padding="10dp"
+
+                        />
+                    <RadioButton
+                        style="@style/RadioButton"
+                        android:id="@+id/radio_btn_three"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Attraverso la pubblicità"
+
+
+
+                        android:textColor="@color/white"
+                        android:padding="10dp"
+                        />
+                    <RadioButton
+                        style="@style/RadioButton"
+                        android:id="@+id/radio_btn_four"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ad un evento/ fiera"
+                        android:textColor="@color/white"
+                        android:padding="10dp"
+
+                        />
+                    <RadioButton
+                        style="@style/RadioButton"
+                        android:id="@+id/radio_btn_five"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Altro"
+                        android:padding="10dp"
+                        android:textColor="@color/white"
+                        />
+
+
+                </RadioGroup>
+
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="60dp"
+            android:elevation="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:src="@drawable/ic_correct">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="90dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="60dp"
+                android:elevation="10dp"
+                android:src="@drawable/right_icon" />
+
+            <ImageView
+
+                android:id="@+id/ic_correct"
+                android:layout_width="40dp"
+                android:layout_height="90dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="60dp"
+                android:elevation="10dp"
+                android:src="@drawable/close_icon" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/done_btn"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/card_view"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/border_confirm"
+            android:gravity="center"
+            android:text="OK"
+            android:textColor="@color/white" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

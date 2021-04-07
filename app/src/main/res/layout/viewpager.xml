@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+
+    <ImageView
+        android:layout_marginTop="40dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/vpclose"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/card_view"
+        android:layout_gravity="right"
+        android:layout_marginRight="5dp"
+        android:gravity="center"
+        android:src="@drawable/ic_close"
+        android:textColor="@color/white" />
+
+
+
+    <ImageView
+        android:id="@+id/ivLeft"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:rotation="180"
+        android:src="@drawable/arrow" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/vp_slider"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll_dots"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:orientation="horizontal" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivRight"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/arrow" />
+</RelativeLayout>
+
+
+
+

@@ -1,0 +1,202 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <include layout="@layout/top_screen"/>
+
+    <!--<LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1.5" >
+
+        <LinearLayout
+            android:id="@+id/layout_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/back_img"
+                    android:layout_width="@dimen/menu_white_size"
+                    android:layout_height="@dimen/menu_white_size"
+                    android:layout_gravity="left"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_back_arrow" />
+                <ImageView
+                    android:id="@+id/bikelogo"
+                    android:layout_width="@dimen/bike_logo_size"
+                    android:layout_height="@dimen/bike_logo_size"
+                    android:layout_marginTop="25dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_login_top" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image"
+                    android:layout_width="@dimen/profile_pic_width_height"
+                    android:layout_height="@dimen/profile_pic_width_height"
+                    android:layout_gravity="center"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_pic"
+                    app:civ_border_width="2dp" />
+
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Portami lo scooter"
+                android:textColor="@color/green"
+                android:textSize="@dimen/text_size_header"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="4dp"
+            android:background="@color/green" />
+
+
+    </LinearLayout>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7">
+
+
+            <ImageView
+                android:layout_width="145dp"
+                android:layout_height="145dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:src="@drawable/bike1" />
+
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <EditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/green"
+                    android:hint="Ti serve Govolt in esclusive"
+                    android:inputType="text"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textStyle="italic" />
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRENOTA SUBITO !"
+                    android:textColor="@color/green"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/fra_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/round_corner"
+                    android:text="Fra unora        "
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+
+                <Button
+                    android:id="@+id/crornata_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/round_corner"
+                    android:text="Im Crornata    "
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+
+                <Button
+                    android:id="@+id/scegle_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/round_corner"
+                    android:text="Scegle La Data"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/orahai"
+                    android:visibility="invisible" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/done_btn"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:src="@drawable/ic_clicking"
+        android:text="OK" />
+
+
+</LinearLayout>
+</ScrollView>

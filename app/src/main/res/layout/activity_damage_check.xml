@@ -1,0 +1,390 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/mainFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/done_btn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_below="@+id/card_view"
+                android:layout_gravity="right"
+                android:layout_marginRight="176dp"
+                android:baselineAligned="false"
+                android:gravity="center"
+                android:src="@drawable/ic_close"
+                android:textColor="@color/white" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Segnalazione danni"
+                android:textColor="@color/green"
+                android:textSize="@dimen/text_size_fpalert"
+                android:textStyle="bold" />
+
+
+            <View
+                android:layout_width="100dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:text="X8DBLB"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:text="Seleziona la parti danneggiate"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/bauletto"
+                        android:layout_width="110dp"
+                        android:layout_height="35dp"
+
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+
+                        android:background="@drawable/round_green"
+                        android:gravity="center"
+                        android:text="Bauletto"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_small"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/selia"
+                        android:layout_width="110dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/round_green"
+                        android:gravity="center"
+                        android:text="Sella"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_small"
+
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/cavaletto"
+                        android:layout_width="110dp"
+
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/round_green"
+                        android:gravity="center"
+                        android:text="Cavaletto"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_small"
+
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/carena"
+                        android:layout_width="110dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/round_green"
+                        android:gravity="center"
+                        android:text="Carena"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_small"
+
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/caschi"
+                        android:layout_width="110dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/round_green"
+                        android:gravity="center"
+                        android:text="Caschi"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_small"
+
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/altro"
+                        android:layout_width="110dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/round_green"
+                        android:gravity="center"
+                        android:text="Altro"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_small"
+
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+                <LinearLayout
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_sessride" />
+                </LinearLayout>
+
+
+                <LinearLayout
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/specchietti"
+                        android:layout_width="110dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/round_green"
+                        android:gravity="center"
+                        android:text="Specchietti"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_small"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/levafreno"
+                        android:layout_width="110dp"
+
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/round_green"
+                        android:gravity="center"
+                        android:text="Leva freno"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_small"
+
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/parafrango"
+                        android:layout_width="110dp"
+
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/round_green"
+                        android:gravity="center"
+                        android:text="Parafango"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_small"
+
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/freece"
+                        android:layout_width="110dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/round_green"
+                        android:gravity="center"
+                        android:text="Frecce"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_small"
+
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/luci"
+                        android:layout_width="110dp"
+
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/round_green"
+                        android:gravity="center"
+                        android:text="Luci"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_small"
+
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/gomme"
+                        android:layout_width="110dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/round_green"
+                        android:gravity="center"
+                        android:text="Gomme"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_small"
+
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/detailFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/black_background"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/commentbox"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="80dp"
+                android:background="@drawable/round_green"
+                android:hint="Commenti"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="Scatta foto"
+                android:textColor="@color/white" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/black_background"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/image1"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_camera_icon_one" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/image2"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_camera_icon_one" />
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/image3"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/ic_camera_icon_one" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/black_background"
+                    android:orientation="vertical">
+
+                    <Button
+
+                        android:id="@+id/buttonOk"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/card_view"
+                        android:background="@drawable/round_corner"
+                        android:gravity="center"
+                        android:text="INVIA"
+                        android:textColor="@color/white"                                                                 />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <!--<dimen name="nav_header_height">176dp</dimen>-->
+    <dimen name="nav_header_height">100dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="dots_height">80dp</dimen>
+    <dimen name="dots_margin_bottom">20dp</dimen>
+    <dimen name="img_width">400dp</dimen>
+    <dimen name="img_width_height">600dp</dimen>
+    <dimen name="slide_title">30dp</dimen>
+    <dimen name="slide_desc">16dp</dimen>
+    <dimen name="desc_padding">40dp</dimen>
+
+    <dimen name="edit_text_height">50dp</dimen>
+    <dimen name="edit_text_height_40">40dp</dimen>
+
+    <dimen name="menu_white_size">50dp</dimen>
+    <dimen name="img_height">50dp</dimen>
+
+
+    <dimen name="button_width">70dp</dimen>
+    <dimen name="button_height">90dp</dimen>
+
+    <dimen name="top_log_width_heught">50dp</dimen>
+    <dimen name="top_log_height">40dp</dimen>
+
+    <dimen name="text_size_header">18sp</dimen>
+    <dimen name="text_size">16sp</dimen>
+    <dimen name="text_size_fpalert">25sp</dimen>
+
+    <dimen name="text_size_flarge">20sp</dimen>
+    <dimen name="text_size_medium">15sp</dimen>
+
+    <dimen name="text_size_large">28sp</dimen>
+
+    <dimen name="text_size_extlarge">32sp</dimen>
+
+    <dimen name="profile_pic_width_height">100dp</dimen>
+    <dimen name="bike_logo_size">50dp</dimen>
+
+    <dimen name="text_size_medium_sec">14sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_very_small">12sp</dimen>
+
+    <dimen name="text_size_small_nine">9sp</dimen>
+    <dimen name="slide_menu_label_padding">6dp</dimen>
+    <dimen name="slide_menu_height">400dp</dimen>
+
+    <dimen name="profile_cam_slidemenu_width">35dp</dimen>
+    <dimen name="profile_cam_slidemenu_height">40dp</dimen>
+
+    <dimen name="design_navigation_icon_size" tools:override="true">40dp</dimen>
+    <dimen name="margin_slide_menu_cam">30dp</dimen>
+
+    <dimen name="text_size_very_small_kick">9sp</dimen>
+
+
+</resources>

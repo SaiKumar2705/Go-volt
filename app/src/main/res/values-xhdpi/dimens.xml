@@ -1,0 +1,6 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <!--values-xhdpi            4.7”   1280x720 xhdpi
+    values-xhdpi            4.65”  720x1280 xhdpi-->
+</resources>

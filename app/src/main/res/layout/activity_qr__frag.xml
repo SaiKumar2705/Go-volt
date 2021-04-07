@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/ic_cover" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="8dp"
+            android:layout_marginBottom="0.01dp"
+            android:layout_marginStart="-2dp"
+            android:layout_above="@+id/qr_scanner_view"
+            android:background="@color/green" />
+        <View
+            android:layout_width="5dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="0.01dp"
+            android:layout_marginTop="-10dp"
+            android:layout_toStartOf="@id/qr_scanner_view"
+            android:background="@color/green" />
+        <View
+            android:layout_width="100dp"
+            android:layout_height="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="-5dp"
+            android:layout_below="@+id/qr_scanner_view"
+            android:layout_alignEnd="@+id/qr_scanner_view"
+            android:background="@color/green" />
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="0.01dp"
+            android:layout_marginBottom="-5dp"
+            android:layout_toEndOf="@id/qr_scanner_view"
+            android:layout_alignBottom="@+id/qr_scanner_view"
+            android:background="@color/green" />
+
+        <com.journeyapps.barcodescanner.DecoratedBarcodeView
+            android:id="@+id/qr_scanner_view"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:padding="10dp"
+            android:layout_gravity="center"
+             />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/ic_number"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginRight="50dp"
+                    android:src="@drawable/ic_icon1" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/image2"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_torch" />
+
+
+            </LinearLayout>
+
+
+            <!-- <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="25dp"
+                 android:orientation="vertical">
+
+                 <de.hdodenhof.circleimageview.CircleImageView
+                     android:id="@+id/image2"
+                     android:layout_width="70dp"
+                     android:layout_height="70dp"
+                     android:src="@drawable/ic_camera_icon_one" />
+
+                 <TextView
+                     android:layout_marginTop="2dp"
+                     android:layout_marginLeft="3dp"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="Foto Retro"
+                     android:textColor="@color/green" />
+
+             </LinearLayout>-->
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

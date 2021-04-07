@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/maps_colayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".HomeActivity">
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/map"
+            class="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/ll_onmap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="4dp">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="10dp">
+
+                        <LinearLayout
+                            android:id="@+id/menu_layout"
+                            android:layout_width="60dp"
+                            android:layout_height="50dp">
+
+                            <ImageView
+                                android:id="@+id/balck_menu"
+                                android:layout_width="40dp"
+                                android:layout_height="20dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="13dp"
+
+                                android:background="@drawable/ic_menu_black" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/center_img"
+                            android:layout_width="120dp"
+                            android:layout_height="40dp"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/business_logo_one" />
+
+                        />
+
+                        <ImageView
+                            android:id="@+id/button3"
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginRight="35dp"
+                            android:background="@drawable/ic_current_loc" />
+                    </RelativeLayout>
+
+                    <ToggleButton
+                        android:id="@+id/toogle"
+                        android:layout_width="60dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/ic_switch_default"
+                        android:text=""
+                        android:textOff=""
+                        android:textOn="" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </fragment>
+    </FrameLayout>
+    <!--<include layout="@layout/buiseness_bike_pink" />-->
+
+    <include layout="@layout/pink_session_bottom_layout"
+        android:visibility="gone"/>
+</android.support.design.widget.CoordinatorLayout>

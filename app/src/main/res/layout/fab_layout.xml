@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/fab_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--
+
+    <TextView
+        android:visibility="visible"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:text="FILTRA IN BASE AL VEICOLO"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="321dp"
+        tools:ignore="MissingConstraints" />
+-->
+
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/fab_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingBottom="80dp"
+        fab:fab_shadowColor="#66000000"
+        fab:fab_showShadow="true"
+        fab:menu_backgroundColor="@color/whiteTransparent"
+        fab:menu_fab_size="normal"
+        fab:menu_icon="@drawable/ic_fabmenu"
+        fab:menu_labels_ellipsize="end"
+
+        fab:menu_labels_hideAnimation="@anim/fab_slide_out_to_right"
+        fab:menu_labels_maxLines="-1"
+        fab:menu_labels_position="left"
+        fab:menu_labels_showAnimation="@anim/fab_slide_in_from_right"
+        fab:menu_labels_showShadow="true"
+        fab:menu_labels_singleLine="true"
+        fab:menu_labels_style="@style/MenuButtonsStyle"
+        fab:menu_openDirection="up"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="194dp">
+        <!--<com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            fab:fab_label="FILTRA IN BASE AL VEICOLO"
+            android:layout_marginBottom="6dp"
+             fab:menu_fab_label="FILTRA IN BASE AL VEICOLO"
+            app:backgroundTint="@color/whiteTransparent"
+            fab:fab_size="mini" />-->
+
+        <!--  <com.github.clans.fab.TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FILTRA IN BASE AL VEICOLO"/>-->
+
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_scooter"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="6dp"
+            android:src="@drawable/ic_fab_four"
+            fab:fab_label="@string/scooter2"
+            fab:fab_size="normal" />
+
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_kick_scooter"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_fab_two"
+            fab:fab_label="Monopattino"
+            fab:fab_size="normal" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_fab_one"
+            fab:fab_label="Tutti i veicoli"
+            fab:fab_size="normal" />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+    <SeekBar
+        android:layout_alignBottom="@+id/fab_menu"
+        android:id="@+id/sbKickScooter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="false"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/slidefull"
+        android:clickable="false"
+        android:max="100"
+        android:paddingStart="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:progressDrawable="@android:color/transparent"
+        android:thumb="@drawable/dots"
+        app:layout_constraintBottom_toBottomOf="@id/fab_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:visibility="gone"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,146 @@
+{
+  "helpfaq":[
+    {
+    "title": "Cos’è GoVolt?",
+    "description": "GoVolt è un servizio di scooter-sharing elettrico ‘free-floating’ attivo nella città di Milano, Italia. Consiste nel noleggiare uno scooter tramite un’APP per il tempo necessario, avendo a disposizione un mezzo di trasporto urbano che è semplice, facile, comodo, sostenibile e silenzioso. Con GoVolt, puoi guidare scooter elettrici nella tua città dove e come vuoi!"
+    },
+    {
+      "title": "Cosa devo sapere prima di guidare uno scooter elettrico?",
+      "description": "Gli scooter elettrici sono molto silenziosi: pedoni, animali o altre persone e veicoli nelle vicinanze potrebbero non sentirti passare, quindi assicurati che ti vedano e non esitare ad usare il clacson così da evitare situazioni pericolose. Gli scooter sono inoltre molto reattivi non appena si accelera: soprattutto in fase di partenza (0 km/h). Durante l’accelerazione, fai attenzione a non essere sorpreso dalla potenza del motore elettrico."
+    },
+    {
+      "title": "Dove posso trovare lo scooter GoVolt?",
+      "description": "GoVolt è a Milano, Italia. Tramite l’App puoi noleggiare qualsiasi scooter presente all’interno dell’area operativa, evidenziata in verde sulla mappa dell’App."
+    },
+    {
+      "title": "Quanto dura la batteria?",
+      "description": "La batteria ha una capacità di 100 km. Non preoccuparti, faremo sempre in modo che tu abbia batteria sufficiente per la tua corsa. Qualsiasi scooter con un livello di batteria basso non sarà prenotabile e la cambieremo appena possibile."
+    },
+    {
+      "title": "Qual è l’età minima richiesta per guidare GoVolt?",
+      "description": "Nonostante gli scooter siano molto semplici da guidare, l’età minima richiesta è di 18 anni per le condizioni assicurative."
+    },
+    {
+      "title": "Ho bisogno di una patente speciale per guidare GoVolt?",
+      "description": "Non c’è bisogno di alcuna patente speciale per guidare uno scooter GoVolt. Basta avere una patente AM, A1 o B. Accettiamo anche patenti internazionali, se autorizzate in Italia."
+    },
+    {
+      "title": "Ho bisogno di un’assicurazione per guidare?",
+      "description": "L’assicurazione è inclusa nel prezzo di ogni corsa ed è associata ad ogni utilizzatore. Grazie alla nostra assicurazione Kasko, proteggiamo te, lo scooter e i terzi."
+    },
+    {
+      "title": "Dove trovo i documenti relativi allo scooter?",
+      "description": "Tutti i documenti necessari per circolare con lo scooter (libretto di circolazione, assicurazione e modulo per incidenti stradali) sono nel bauletto."
+    },
+    {
+      "title": "Devo avere un casco?",
+      "description": "Se usi gli scooter GoVolt devi sempre indossare il casco! Non è necessario portare il tuo casco. Ogni scooter ha nel proprio bauletto due caschi di misure diverse: una M ed una XL (potrai facilmente controllare la taglia sul retro del casco). È inoltre possibile utilizzare una cuffietta igienica, anche questa disponibile all’interno del bauletto. Se volessi utilizzare il tuo casco, è necessario che sia certificato e in buone condizioni."
+    },
+    {
+      "title": "Come funziona l'App una volta registrati?",
+      "description": "Dopo aver effettuato l’accesso, ti sarà molto semplice navigare tra le diverse sezioni:\nLa Mappa è la pagina principale, dove è possibile visualizzare gli scooter disponibili e dove prenotarli\nLa sezione ‘storico corse’ fornisce un sommario delle corse che hai già fatto, la distanza percorsa, i punti di inizio e fine della corsa nonché i soldi spesi per ogni corsa.\nNella pagina ‘wallet e pacchetti’ troverai tutti i minuti gratis accumulati.\nAll’interno di ‘Promozioni’ potrai inserire i codici voucher che ti garantiranno minuti gratis.\n‘Metodo di pagamento’ ti permette di cambiare le informazioni relative alla tua carta di credito.\nDalla pagina ‘Aiuto’ potrai accedere ad una semplice guida al servizio, le FAQs, i termini e condizioni così come trovare i contatti relativi al nostro servizio.\nLe impostazioni permettono di cambiare la lingua e le informazioni personali.\nÈ possibile inoltre accedere ai nostri canali social media e sito premendo le icone situate in fondo al menu."
+    },
+    {
+      "title": "Come noleggio uno scooter GoVolt?",
+      "description": "Devi semplicemente aprire l’App, cercare lo scooter più vicino a te, prenotarlo, quindi hai 15 minuti di tempo per raggiungere il posto in cui si trova lo scooter e sbloccarlo. Lo scooter si accenderà e il bauletto si aprirà automaticamente. Metti il casco, siediti sullo scooter, schiaccia due volte il pulsante rosso situato sulla destra del manubrio, togli il cavalletto e sei pronto per guidare in giro per Milano!"
+    },
+    {
+      "title": "Dove si trova la chiave?",
+      "description": "GoVolt è completamente senza chiave! Non hai bisogno di una chiave né per accendere lo scooter, né per aprire il bauletto."
+    },
+    {
+      "title": "Sono in sella allo scooter e non funziona. Cosa faccio?",
+      "description": "Assicurati di aver premuto per due volte il bottone rosso sul lato destro del manubrio. Se lo scooter non parte comunque, prova a prenotarne un altro vicino a te. Puoi riportare ogni problema a: servizioclienti@govoltmobility.com"
+    },
+    {
+      "title": "Lo scooter è danneggiato, cosa faccio?",
+      "description": "Se lo scooter è danneggiato o se manca il casco per favore fotografa il danno e mandaci le foto a servizioclienti@govoltmobility.comCe ne prenderemo cura immediatamente!"
+    },
+    {
+      "title": "Dove posso guidare lo scooter GoVolt?",
+      "description": "Puoi guidare GoVolt ovunque tu voglia! Ovviamente, strade ad alta velocità, come le autostrade, sono inaccessibili per gli scooter. Ricordati solo che per terminare la corsa dovrai parcheggiare all’interno dell’area operativa evidenziata in verde sulla mappa dell’App."
+    },
+    {
+      "title": "Posso utilizzare il mio scooter fuori dall’area autorizzata?",
+      "description": "Certamente, con gli Scooter GoVolt, puoi lasciare la business area. Il noleggio deve però terminare entro l’area consentita."
+    },
+    {
+      "title": "Esiste un limite massimo o minimo di minuti o chilometri durante la stessa corsa?",
+      "description": "Non c’è un limite, paghi in base al tempo di utilizzo, tutto qui!"
+    },
+    {
+      "title": "Posso usare la pista ciclabile?",
+      "description": "Anche se hai la sensazione di volare con GoVolt e lo scooter è molto silenzioso, la pista ciclabile è solo per biciclette e veicoli senza motore (anche se elettrico)."
+    },
+    {
+      "title": "Posso portare un secondo passeggero sul mio GoVolt?",
+      "description": "GoVolt permette di trasportare un altro passeggero sui nostri e-scooter. Quindi porta tua mamma, tuo papà, o i tuoi amici, o tuo cugino, o tuo nonno, c’è posto per tutti! Troverai due caschi di due taglie differenti all’interno del bauletto."
+    },
+    {
+      "title": "Può un’altra persona fare corse con il mio account?",
+      "description": "No, l’account GoVolt è strettamente personale e non è trasferibile poiché è associato ad un’assicurazione personale. Se viene utilizzato da un’altra persona, questa assicurazione è annullata e il rischio è totale."
+    },
+    {
+      "title": "È possibile fare una pausa durante la corsa senza terminare il noleggio?",
+      "description": "Durante la tua corsa, puoi fare una pausa in qualsiasi momento. Apri l’App e premi “Pausa”; lo scooter si spegnerà automaticamente. Per riprendere la corsa premi su “Riprendi” e lo scooter si riaccenderà automaticamente."
+    },
+    {
+      "title": "Posso guidare durante la notte?",
+      "description": "Si, GoVolt è disponibile 24/7, 365 giorni all’anno (366 se è un anno bisestile  ;)). La tariffa applicata durante la notte è uguale a quella di giorno."
+    },
+    {
+      "title": "Dove posso parcheggiare?",
+      "description": "Puoi parcheggiare ovunque, poiché non ci sono parcheggi speciali. Dovrà però essere un parcheggio pubblico consentito a moto e scooter ed entro l’area autorizzata GoVolt (come mostrato nella mappa dell’App)."
+    },
+    {
+      "title": "Come porto a termine il noleggio?",
+      "description": "Quando arrivi alla tua destinazione e parcheggi lo scooter, premi “TERMINA” sull’App. Il bauletto si aprirà automaticamente per lasciare il casco (o i caschi). Per chiudere il noleggio assicurati che il bauletto sia ben chiuso, accertandoti di sentire un click e di fare leggermente pressione sulla parte destra del bauletto.Assicurati di spuntare tutte le caselle presenti sulla lista per finalizzare la corsa e lasciare lo scooter libero/disponibile per il prossimo utente."
+    },
+    {
+      "title": "Posso ricaricare da solo la batteria?",
+      "description": "Parte del nostro team si assicura che tutte le batterie siano sufficientemente cariche, quindi è un lavoro di cui siamo responsabili noi. Non c’è bisogno che ti preoccupi! Goditi la corsa!"
+    },
+    {
+      "title": "Come faccio ad aggiornare/cambiare le mie informazioni?",
+      "description": "Nel menù dell’App seleziona “Il mio profilo”. Lì puoi cambiare sia i tuoi dati personali sia il metodo di pagamento."
+    },
+    {
+      "title": "Come faccio a cancellare il mio account?",
+      "description": "Se vuoi cancellarti dal servizio comunicacelo via email: servizioclienti@govoltmobility.com Ce ne occuperemo noi; molto semplice! Ci interessa molto la tua opinione, quindi ti chiederemo il motivo della tua cancellazione. Non ti preoccupare, non indagheremo!"
+    },
+    {
+      "title": "Quanto costa la singola corsa?",
+      "description": "Abbiamo il prezzo più conveniente sul mercato, solo € 0,20 a minuto, valido sia per la guida che per la sosta."
+    },
+    {
+      "title": "Cosa succede se non ho mai guidato uno scooter, pur avendo la patente B?",
+      "description": "Gli scooter di GoVolt sono molto semplici da guidare e non è necessario avere esperienze. Ad ogni modo, se non dovessi sentirti abbastanza sicuro, contattaci a servizioclienti@govoltmobility.com e ti organizzeremo una lezione!"
+    },
+    {
+      "title": "Cosa fare in caso di pioggia o cattive condizioni metereologiche?",
+      "description": "In questi casi, raccomandiamo di massimizzare le precauzioni per evitare incidenti, dal momento che il livello di rischio si alza quando la strada è bagnata e lo scooter perde aderenza e stabilità. Consigli per queste situazioni includono: ridurre la velocità, frenare in anticipo, usare vestiario catarifrangente, evitare pozzanghere e pozze e linee disegnate sulla strada. In ogni caso, il servizio non si ferma per le condizioni meteo e il sistema elettrico è impermeabile."
+    },
+    {
+      "title": "Cosa faccio in caso di incidente?",
+      "description": "In caso di incidente, contatta il nostro servizio clienti appena possibile così che possiamo aiutarti. Dovrai compilare il modulo di incidente stradale con attenzione, in ogni scooter se ne trova uno all’interno del bauletto. Eventualmente, puoi anche usare moduli forniti da coloro con cui hai avuto l’incidente. Assicurati di tenere due copie, fai fotografie all’incidente e manda quindi tutte queste informazioni per email a servizioclienti@govoltmobility.com"
+    },
+    {
+      "title": "Cosa succede se ricevo una multa?",
+      "description": "Sei responsabile per le multe che ricevi, sia durante la corsa che relative al parcheggio. Per favore, guida con cautela e controlla le regole sul parcheggio onde evitare multe."
+    },
+    {
+      "title": "Cosa faccio se lo scooter si guasta mentre lo sto usando?",
+      "description": "Prima di premere “sblocca”, assicurati di aver controllato che non ci siano danni o problemi relativi allo scooter, al bauletto o al servizio in generale, nel caso ti preghiamo di contattarci tramite il nostro servizio clienti. Nel caso in cui il problema si presentasse durante la tua corsa, faccelo sapere al più presto possibile tramite il servizio clienti."
+    },
+    {
+      "title": "Cosa faccio se si scarica il telefono e non posso terminare la corsa?",
+      "description": "È sempre molto importante controllare lo stato della tua batteria prima di usare GoVolt. Il tuo smartphone è la chiave e non c’è altro modo per iniziare, fermare e terminare la tua corsa. Il nostro scooter è anche dotato di porta USB dove puoi inserire il tuo cavo per ricaricare! Se dovessi trovarti in quella situazione, l’unica cosa che resta da fare è chiedere in prestito un telefono e contattare il nostro servizio clienti per terminare la corsa."
+    },
+    {
+      "title": "Posso utilizzare GoVolt anche se sono a Milano solo per un periodo di tempo limitato?",
+      "description": "Non c’è problema! Crea il tuo account, goditi Milano con GoVolt e poi potremo disattivare il tuo account quando lasci la città."
+    }
+
+
+  ]
+}

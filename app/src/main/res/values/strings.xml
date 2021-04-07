@@ -1,0 +1,198 @@
+<resources>
+
+    <string name="app_name">GoVolt</string>
+    <string name="emailerror">Enter a valid email</string>
+    <string name="mobileerror">Enter a valid mobile</string>
+    <string name="dateerror">Enter a valid date</string>
+    <string name="ageerror">Enter a valid age</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_header_title">Android Studio</string>
+
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="Helpfaq">Help &amp; FAQ</string>
+
+    <string name="faq">FAQ</string>
+
+    <string name="accedi">ACCEDI</string>
+
+    <string name="iscriviti">ISCRIVITI</string>
+
+    <string name="minfree">min\nFree</string>
+
+    <string name="inserisci">Inserisci \n la tua email aziendale\nper ricevere \n il link di accesso</string>
+
+    <string name="filtro">FILTRO OFF \n vedi tutti gli scooter \n disponibili silla mappa,\n inclusi quetti a pagamento</string>
+
+    <string name="filtroon">FILTRO ON \n vedi soltanto gli scooter \n deicati.\nClicca su quello più vicino\na te e inizia il noleggio</string>
+
+    <string name="forgotpwd">Password dimenticata?</string>
+
+    <!-- AIzaSyBXp-GEXHfek9nmMXXntylW2p1mmCXtRS0-->
+
+    //google Api Key
+    <!-- AIzaSyDZxhp6PFxfPuW_CJRtrS7ggnGXY67gBpk-->
+    <string name="google_maps_key">AIzaSyC3c9xjaSz1cZVaF46_g2bSxgyYvR5yys4</string>
+
+    <string name="nameerror">Email is wrong</string>
+
+    <string name="emptyerror">Field cannot be Empty</string>
+
+    <string name="reg_swicth_one">Accetto i Termini &amp; Condizioni generali di contratto di scooter sharing e il regolamento</string>
+
+    <string name="reg_switch_two">Ai sensi degli art. 1341 e 1342 c.c. accetto specificamente le seguenti clausole dei termini e condizioni; Art.2.5,Art.3,4.2 4.5. 5.5. 7.6. 8.9. 13.3. 16. 18.2</string>
+
+    <string name="reg_switcth_three">Consenso privacy</string>
+
+    <string name="reg_switcth_four">Newsletter per ricevere promozioni, informazioni e notizie su GoVolt</string>
+
+    <string name="sample_string">Inserisci una password di \n almeno 8 caratteri, \n compresa una maiuscola \n e un numero.</string>
+
+    <string name="grid_one_str">Via Cario Pomo 2\nMilano</string>
+
+    <string name="grid_one_three">Comune di \ncastel Rozzone</string>
+
+    <string name="compliment">La tua registrazione è\n andata a buon fine.</string>
+
+    <string name="compliment_sub">Scopri come iniziare\nil tuo noleggio.</string>
+
+    <string name="orahai">Ora hai 30 minuti \ngratuiti!</string>
+
+
+    <!--Abbiamo aggiunto xxx minuti
+    al tuo wallet!
+-->
+    <string name="pagament">Come hai conosciuto\n GoVolt?</string>
+
+    <string name="larea">L’area business mostra gli \n scooter dedicati alia\n tua attività</string>
+
+    <string name="error"> Devi accettare i \n Termini e Condizione,\n le clausole sul codice civile\n e il consenso privacy\n per proseguire</string>
+
+    <string name="ilnostro">II nostro team \nsta arrivanndo!</string>
+
+    <string name="wallet_popup">Stai acquistando \nil pacchetto </string>
+
+    <string name="stayacquist">Seleziona il metodo \ndi pagamento</string>
+
+
+    -
+    <string name="premiumstayacquist">
+Stai acquistando\n il servizio
+<font color="#37B12B"> Tienimi con te</font>
+
+</string>
+
+    <string name="premium_seleziona">Seleziona il metodo\ndi pagamento</string>
+
+    <string name="ituoi">Tienimi con te\nè attivo fino\nal XX/XX/XX</string>
+
+
+    <string name="ituoi_wallet">i tuoi crediti sono\n stati agginuiti alla sezione</string>
+
+
+    <!--Tienimi con te è attivo fino al XX/XX/XX-->
+
+    <string name="tienimi">Tienimi con te\n e attivo fino\n al xx/xx/xx</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    -
+    <string name="edittext_hint">
+
+<font size="12">Hint here!</font>
+
+</string>
+
+    <string name="illserve">Il servizio che ti permette di riservare\nun GoVolt per tutto il tempo che vuoi.</string>
+
+    <string name="tienimi_one">TIENIMI \n CON TE</string>
+
+    <string name="portami">PORTAMI \n LO SCOOTER</string>
+
+    <string name="co"> "*€O,18/min</string>
+
+    <string name="password_change_activity">La password deve avere almeno 8 caratteri\ne contenere una maiuscola e un numero</string>
+
+    <string name="subito"> subito disponibili \nper loro</string>
+
+    <string name="perte">per te dopo la loro prima\ncorsa</string>
+
+    <string name="condividi">Condividi questo codice</string>
+
+    <string name="oppure">Oppure \nfai scannerizzare\nquesto QR code\nai tuoi amici\nper avere subito\nminuti gratis</string>
+
+
+    <string name="haitermi">Hai terminato con \n successo il tuo noleggio</string>
+
+    <string name="costo">Costo TOT \n stimato</string>
+
+    <string name="buiseness_error"> Accertati che il \n bauletto sia chiuso \n correttamente.</string>
+
+    <string name="prova"> Prova di nuovo a \n chiudere il noleggio</string>
+    <string name="staiper">Stai per terminare i \n minuti gratutiti di \n prenotazione</string>
+    <string name="terminati">Terminati I minuti, \n verrà addebitata la tariffa \n standard di €0,20/min</string>
+    <string name="seannulli">Se annulli potrai riprenotare lo \n stesso scooter soltanto fra un’ora</string>
+
+    <string name="nondimen">Non dimenticare nulla \n nel bauletto</string>
+    <string name="parche">Parcheggiare\nall’interno dell’area operativa</string>
+
+    <string name="manifesto">Manifestazione\ndel consenso</string>
+
+
+    <string name="terms">Termini &amp; Condizioni</string>
+
+
+    <string name="leggi">LEGGI L’INTERO REGOLAMENTO</string>
+
+    <string name="dopoaver">Dopo aver letto e compreso la sopra \nestesa informativa privacy:</string>
+
+
+    <string name="accetto">Accetto i Termini &amp; Condizioni generali  \ndi contratto di scooter sharing e il \nregolamento.</string>
+
+    <string name="pert">Per l’inoltro di materiale informativo,\npubblicitario e promozionale sui servizi\ne/o prodotti resi dal Titolare ai sensi di\nquanto previsto sub 3. b. i. tramite mezzi\nautomatizzati di contatto (es.\ne-mail/sms) </string>
+
+
+    <string name="aisensi">Ai sensi degli art. 1341 e 1342 c.c. accetto\nspecificamente le seguenti clausole    dei\ntermini e condizioni: </string>
+
+
+    <string name="pertone">Per l’inoltro di materiale informativo,\npubblicitario e promozionale\npersonalizzato sui servizi e/o prodotti\nresi dal Titolare ai sensi di quanto\nprevisto sub 3. b. ii. tramite mezzi\nautomatizzati di contatto (es.\nemail/sms)</string>
+
+
+    <string name="articolo">Articolo 2.5 (Modifica unilaterale delle\ncondizioni contrattuali);\nArticolo 3 (Requisiti per l’adesione al\nServizio);\nArticolo 4.2 (Recesso);\nArticolo 4.5 (Sospensione del Servizio);\nArticolo 5.5 (Limitazione di\nresponsabilità);\nArticolo 7.6 (Aggiornamento delle\ntariffe);\nArticolo 8.9 (Sospensione dell’Account);\n13.3 (Sospensione dell’Account);\nArticolo 16 (Esonero di responsabilità);\nArticolo 18.2 (Foro esclusivo).</string>
+
+    <string name="passworderror">Attenzione! La password inserita non è corretta. Riprova!</string>
+    <string name="complita">Complete la tua\n registrazione\n inserendo il metodo\n di pagamento</string>
+
+    <string name="complita_reg">La tua registrazione è\nandata a buon fine.</string>
+
+    <string name="fp"> Inserisci la tua email.\nTi invieremo un link  per\nimpostare nuovamente\nla password</string>
+
+    <string name="cambia">  CAMBIA L\'IMMAGINE \nDEL PROFILO</string>
+
+    <string name="checkout_pay_amount_format"> AVANTI</string>
+
+    <string name="waiting_for_approval">In attesa di approvazione</string>
+    <string name="not_valid"> Documento non valido</string>
+    <string name="rejected">Respinto</string>
+
+
+    <string name="scooter2">Coming soon - Scooter</string>
+
+    <string name="kickcam"> Pracheggia adeguatamente il monopattino</string>
+
+
+    <string name="apribauletto">APRI\nBAULETTO</string>
+
+
+</resources>

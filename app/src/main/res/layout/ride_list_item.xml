@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.CardView
+
+        android:id="@+id/cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="@dimen/cardview_default_elevation">
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/image_bike"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true"
+                android:elevation="10dp"
+                android:src="@drawable/ic_bike_white_green" />
+
+            <TextView
+                android:id="@+id/name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="4dp"
+                android:layout_toRightOf="@+id/image_bike"
+                android:elevation="10dp"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:singleLine="true"
+                android:text="Via carlo poma2"
+                android:textColor="@color/green"
+                android:textColorHint="@color/green"
+                android:textSize="@dimen/text_size_medium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/hiphen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="-1dp"
+
+                android:layout_marginTop="4dp"
+                android:layout_toRightOf="@id/name_tv"
+
+                android:elevation="10dp"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:singleLine="true"
+                android:text="-"
+                android:textColor="@color/green"
+                android:textColorHint="@color/green"
+                android:textSize="@dimen/text_size_medium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/endloc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="4dp"
+                android:layout_toRightOf="@+id/hiphen"
+                android:elevation="10dp"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:singleLine="true"
+                android:text="Via carlo poma2"
+                android:textColor="@color/green"
+                android:textColorHint="@color/green"
+                android:textSize="@dimen/text_size_medium"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal"
+                android:weightSum="2"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginRight="45dp"
+                    android:layout_weight="1.9"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/sub_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:text="DBLX8X"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_small"
+                        android:textStyle="bold" />
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/distance_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:singleLine="true"
+                            android:text="21"
+                            android:textColor="@color/black"
+
+                            android:textSize="@dimen/text_size_small"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/hiphen1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_toRightOf="@+id/distance_tv"
+                            android:singleLine="true"
+                            android:text="-"
+                            android:textColor="@color/black"
+
+                            android:textSize="@dimen/text_size_small"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/time_end"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_toRightOf="@+id/hiphen1"
+                            android:singleLine="true"
+                            android:text="21"
+                            android:textColor="@color/black"
+
+                            android:textSize="@dimen/text_size_small"
+                            android:textStyle="bold" />
+
+                       <!-- <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_toRightOf="@+id/hiphen1"
+                            android:singleLine="true"
+                            android:text="21"
+                            android:textColor="@color/black"
+
+                            android:textSize="@dimen/text_size_small"
+                            android:textStyle="bold" />
+&lt;!&ndash;-->
+                      <!--  <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_toRightOf="@+id/time_end"
+                            android:singleLine="true"
+                            android:text="PM"
+                            android:textColor="@color/black"
+
+                            android:textSize="@dimen/text_size_small"
+                            android:textStyle="bold" />&ndash;&gt;-->
+
+                    </RelativeLayout>
+
+
+                    <TextView
+                        android:id="@+id/date"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:singleLine="true"
+                        android:text="3/12/2018"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_small"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="10dp"
+                        android:gravity="center"
+
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:singleLine="true"
+                            android:text="€"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_size_header"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_marginLeft="3dp"
+                            android:id="@+id/textprice"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:singleLine="true"
+                            android:text="€"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_size_header"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/arrow_img"
+                            android:layout_width="10dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="20dp"
+                            android:background="@drawable/arrow_next_green"
+
+                            android:padding="20dp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

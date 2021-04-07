@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- <style name="MyDatePicker" parent="android:Widget.Material.Light.DatePicker">
+         <item name="android:textColorPrimary">@color/white</item>
+     </style>-->
+
+    <style name="MyDatePicker" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorControlNormal">#ffffff</item>
+        <item name="colorControlActivated">#ffffff</item>
+        <item name="android:textColorPrimary">#ffffff</item>
+        <item name="android:typeface">normal</item>
+
+    </style>
+    <style name="MyDatePicker_One" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorControlNormal">#000000</item>
+        <item name="colorControlActivated">#000000</item>
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="android:typeface">normal</item>
+
+    </style>
+</resources>
